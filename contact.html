@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Gayou Rani</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo">Gayou<span>.dev</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <h1>Get In Touch</h1>
+    <p style="color: var(--text-secondary); margin-bottom: 2rem;">Feel free to reach out for web development opportunities and collaborations.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+      <div class="card">
+        <form onsubmit="event.preventDefault(); alert('Thank you! Gayou will respond to your message shortly.');">
+          <div style="margin-bottom: 1.2rem;">
+            <label style="display: block; margin-bottom: 0.4rem; font-weight: 600;">Your Name</label>
+            <input type="text" placeholder="Your Name" required style="width: 100%; padding: 0.8rem; background: rgba(255,255,255,0.05); border: 1px solid var(--border-subtle); color: #fff; border-radius: 8px;">
+          </div>
+
+          <div style="margin-bottom: 1.2rem;">
+            <label style="display: block; margin-bottom: 0.4rem; font-weight: 600;">Email Address</label>
+            <input type="email" placeholder="email@example.com" required style="width: 100%; padding: 0.8rem; background: rgba(255,255,255,0.05); border: 1px solid var(--border-subtle); color: #fff; border-radius: 8px;">
+          </div>
+
+          <div style="margin-bottom: 1.2rem;">
+            <label style="display: block; margin-bottom: 0.4rem; font-weight: 600;">Message</label>
+            <textarea rows="4" placeholder="Hi Gayou, I would like to connect with you regarding..." required style="width: 100%; padding: 0.8rem; background: rgba(255,255,255,0.05); border: 1px solid var(--border-subtle); color: #fff; border-radius: 8px;"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message 🚀</button>
+        </form>
+      </div>
+
+      <div class="card" style="display: flex; flex-direction: column; justify-content: center;">
+        <h3 style="margin-bottom: 1.2rem;">Direct Communication</h3>
+        <p style="color: var(--text-secondary); margin-bottom: 0.8rem;">📧 Email: <a href="mailto:gayourani@gmail.com" style="color: var(--accent-cyan); text-decoration: none;"><strong>gayourani@gmail.com</strong></a></p>
+        <p style="color: var(--text-secondary); margin-bottom: 0.8rem;">💼 LinkedIn: <a href="https://linkedin.com/in/gayourani" target="_blank" style="color: var(--accent-cyan); text-decoration: none;"><strong>linkedin.com/in/gayourani</strong></a></p>
+        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">🐙 GitHub: <a href="https://github.com/gayourani" target="_blank" style="color: var(--accent-cyan); text-decoration: none;"><strong>github.com/gayourani</strong></a></p>
+        <span class="badge" style="width: fit-content;">⚡ Open for immediate joining</span>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Gayou Rani • Full Stack Developer Portfolio</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
